@@ -11,6 +11,9 @@ class Csview < Formula
 
   def install
     bin.install "csview"
+    zsh_completion.install  "completions/zsh/_csview"
+    bash_completion.install "completions/bash/csview.bash"
+    fish_completion.install "completions/fish/csview.fish"
   end
 end
 
