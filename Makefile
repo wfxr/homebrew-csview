@@ -1,5 +1,5 @@
 PKG = csview
-PKGVER = 0.3.10
+PKGVER = 0.3.11
 PKGURL = https://github.com/wfxr/$(PKG)/releases/download/v$(PKGVER)/$(PKG)-v$(PKGVER)-x86_64-apple-darwin.tar.gz
 
 .PHONY: codegen
