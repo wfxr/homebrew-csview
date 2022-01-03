@@ -4,10 +4,10 @@
 class Csview < Formula
   desc "A high performance csv viewer with cjk/emoji support."
   homepage "https://github.com/wfxr/csview"
-  url "https://github.com/wfxr/csview/releases/download/v0.3.12/csview-v0.3.12-x86_64-apple-darwin.tar.gz"
-  sha256 "d33dd2d8f5420d1a483ff0343cda88cfe2ed9f035b6b4a6ca7f13d71172a4110"
+  url "https://github.com/wfxr/csview/releases/download/v1.0.0-rc/csview-v1.0.0-rc-x86_64-apple-darwin.tar.gz"
+  sha256 "40ba6e0fac4eb015446d6ff245c6ae0b79f385c565dd2204a6e07a264c24d95c"
   license "MIT/APACHE-2.0"
-  version "0.3.12"
+  version "1.0.0-rc"
 
   def install
     bin.install "csview"
